@@ -45,7 +45,7 @@ jobs:
         workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
         service_account: 'my-service-account@my-project.iam.gserviceaccount.com'
 
-    - uses: bits-app/gce-cloudsql-proxy-action@v2
+    - uses: bits-app/gce-cloudsql-proxy-action@v1.0.0
       with:
         instance: my-project:us-central1:instance-1
 ```
